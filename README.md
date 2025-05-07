@@ -7,9 +7,14 @@ conda create --name Listening python==3.10
 conda activate Listening
 ```
 ## 安装依赖
+### 安装 Python 依赖
 ```bash
 pip install -r requirements.txt
 ```
 ```bash
 pip install -r requirements.txt -i https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+```
+### 安装 FFmpeg
+```
+conda install ffmpeg
 ```
